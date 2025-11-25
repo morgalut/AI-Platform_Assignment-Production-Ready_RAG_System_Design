@@ -1,36 +1,52 @@
 # app/rag/retriever.py
 
+from typing import List
+from sqlalchemy import select
 from sqlalchemy.orm import Session
-from app.models.chunk import ChunkORM, Chunk
+
+from app.models.chunk import ChunkORM
+from app.models.query import UsedChunk
 
 
 def retrieve_relevant_chunks(
     question: str,
     embedder,
     db: Session,
-    allowed_product_tags: list[str],
+    allowed_product_tags: List[str],
     k: int = 10,
 ):
-    # Embed the user question
-    query_embedding = embedder.embed(question)
+    """
+    Retrieve top-k relevant chunks using pgvector L2 distance.
+    """
 
-    # pgvector distance search using .l2_distance()
-    rows = (
-        db.query(ChunkORM)
-        .filter(ChunkORM.product_tag.in_(allowed_product_tags))
-        .order_by(ChunkORM.embedding.l2_distance(query_embedding))
+    # Embed question → embedder expects a list
+    vectors = embedder.embed([question])
+
+    if not vectors or not isinstance(vectors[0], list):
+        raise ValueError(f"Invalid embedding returned from embedder: {vectors}")
+
+    embedding_vector = vectors[0]
+
+    stmt = (
+        select(ChunkORM)
+        .where(ChunkORM.product_tag.in_(allowed_product_tags))
+        .order_by(ChunkORM.embedding.l2_distance(embedding_vector))
         .limit(k)
-        .all()
     )
 
-    return rows
+    return db.execute(stmt).scalars().all()
 
 
-def chunks_to_used_chunks(chunks: list[ChunkORM]) -> list[Chunk]:
+def chunks_to_used_chunks(chunks: list[ChunkORM]) -> list[UsedChunk]:
     """
-    Convert SQLAlchemy ORM rows → Pydantic models.
+    Convert SQLAlchemy ChunkORM → Pydantic UsedChunk (safe for API response).
     """
     return [
-        Chunk.model_validate(chunk, from_attributes=True)
-        for chunk in chunks
+        UsedChunk(
+            ticket_id=c.ticket_id,
+            product_tag=c.product_tag,
+            chunk_index=c.chunk_index,
+            text=c.text,
+        )
+        for c in chunks
     ]
