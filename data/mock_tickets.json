@@ -1,0 +1,2796 @@
+[
+  {
+    "ticket_id": "TCK-1000",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-25",
+    "customer_segment": "mid-market",
+    "created_at": "2024-09-08T00:00:00",
+    "resolved_at": "2024-09-16T00:00:00",
+    "resolution_summary": "Resolved issue #0 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 0."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1001",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-3",
+    "customer_segment": "enterprise",
+    "created_at": "2024-02-24T00:00:00",
+    "resolved_at": "2024-02-27T00:00:00",
+    "resolution_summary": "Resolved issue #1 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 1."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1002",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-8",
+    "customer_segment": "enterprise",
+    "created_at": "2024-02-08T00:00:00",
+    "resolved_at": "2024-02-13T00:00:00",
+    "resolution_summary": "Resolved issue #2 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "performance",
+      "api"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 2."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1003",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-7",
+    "customer_segment": "enterprise",
+    "created_at": "2024-06-06T00:00:00",
+    "resolved_at": "2024-06-14T00:00:00",
+    "resolution_summary": "Resolved issue #3 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "ui",
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 3."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1004",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-43",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-25T00:00:00",
+    "resolved_at": "2024-01-26T00:00:00",
+    "resolution_summary": "Resolved issue #4 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "latency",
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 4."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1005",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-33",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-02T00:00:00",
+    "resolved_at": "2024-10-09T00:00:00",
+    "resolution_summary": "Resolved issue #5 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 5."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1006",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-35",
+    "customer_segment": "mid-market",
+    "created_at": "2024-05-29T00:00:00",
+    "resolved_at": "2024-05-30T00:00:00",
+    "resolution_summary": "Resolved issue #6 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 6."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1007",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-42",
+    "customer_segment": "enterprise",
+    "created_at": "2024-07-03T00:00:00",
+    "resolved_at": "2024-07-04T00:00:00",
+    "resolution_summary": "Resolved issue #7 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 7."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1008",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-35",
+    "customer_segment": "small-business",
+    "created_at": "2024-04-25T00:00:00",
+    "resolved_at": "2024-04-26T00:00:00",
+    "resolution_summary": "Resolved issue #8 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "api"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 8."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1009",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-34",
+    "customer_segment": "enterprise",
+    "created_at": "2024-06-24T00:00:00",
+    "resolved_at": "2024-06-29T00:00:00",
+    "resolution_summary": "Resolved issue #9 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 9."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1010",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-19",
+    "customer_segment": "small-business",
+    "created_at": "2024-06-20T00:00:00",
+    "resolved_at": "2024-06-28T00:00:00",
+    "resolution_summary": "Resolved issue #10 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 10."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1011",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-37",
+    "customer_segment": "mid-market",
+    "created_at": "2024-02-18T00:00:00",
+    "resolved_at": "2024-02-26T00:00:00",
+    "resolution_summary": "Resolved issue #11 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 11."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1012",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-39",
+    "customer_segment": "small-business",
+    "created_at": "2024-08-23T00:00:00",
+    "resolved_at": "2024-08-26T00:00:00",
+    "resolution_summary": "Resolved issue #12 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 12."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1013",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-43",
+    "customer_segment": "enterprise",
+    "created_at": "2024-01-05T00:00:00",
+    "resolved_at": "2024-01-07T00:00:00",
+    "resolution_summary": "Resolved issue #13 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 13."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1014",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-48",
+    "customer_segment": "enterprise",
+    "created_at": "2024-01-29T00:00:00",
+    "resolved_at": "2024-02-08T00:00:00",
+    "resolution_summary": "Resolved issue #14 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "crash",
+      "api"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 14."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1015",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-49",
+    "customer_segment": "mid-market",
+    "created_at": "2024-09-04T00:00:00",
+    "resolved_at": "2024-09-12T00:00:00",
+    "resolution_summary": "Resolved issue #15 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 15."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1016",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-9",
+    "customer_segment": "small-business",
+    "created_at": "2024-06-27T00:00:00",
+    "resolved_at": "2024-07-04T00:00:00",
+    "resolution_summary": "Resolved issue #16 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "database"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 16."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1017",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-8",
+    "customer_segment": "mid-market",
+    "created_at": "2024-09-20T00:00:00",
+    "resolved_at": "2024-09-30T00:00:00",
+    "resolution_summary": "Resolved issue #17 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "ui"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 17."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1018",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-26",
+    "customer_segment": "mid-market",
+    "created_at": "2024-10-13T00:00:00",
+    "resolved_at": "2024-10-21T00:00:00",
+    "resolution_summary": "Resolved issue #18 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui",
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 18."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1019",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-6",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-17T00:00:00",
+    "resolved_at": "2024-01-24T00:00:00",
+    "resolution_summary": "Resolved issue #19 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "latency"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 19."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1020",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-24",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-15T00:00:00",
+    "resolved_at": "2024-01-19T00:00:00",
+    "resolution_summary": "Resolved issue #20 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "latency"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 20."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1021",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-19",
+    "customer_segment": "mid-market",
+    "created_at": "2024-02-04T00:00:00",
+    "resolved_at": "2024-02-07T00:00:00",
+    "resolution_summary": "Resolved issue #21 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash",
+      "performance",
+      "ui"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 21."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1022",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-33",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-09T00:00:00",
+    "resolved_at": "2024-01-18T00:00:00",
+    "resolution_summary": "Resolved issue #22 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "performance",
+      "ui"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 22."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1023",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-32",
+    "customer_segment": "small-business",
+    "created_at": "2024-09-07T00:00:00",
+    "resolved_at": "2024-09-14T00:00:00",
+    "resolution_summary": "Resolved issue #23 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 23."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1024",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-49",
+    "customer_segment": "small-business",
+    "created_at": "2024-03-18T00:00:00",
+    "resolved_at": "2024-03-27T00:00:00",
+    "resolution_summary": "Resolved issue #24 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 24."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1025",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-30",
+    "customer_segment": "small-business",
+    "created_at": "2024-03-03T00:00:00",
+    "resolved_at": "2024-03-12T00:00:00",
+    "resolution_summary": "Resolved issue #25 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "crash",
+      "performance"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 25."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1026",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-31",
+    "customer_segment": "small-business",
+    "created_at": "2024-07-13T00:00:00",
+    "resolved_at": "2024-07-17T00:00:00",
+    "resolution_summary": "Resolved issue #26 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 26."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1027",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-32",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-20T00:00:00",
+    "resolved_at": "2024-10-22T00:00:00",
+    "resolution_summary": "Resolved issue #27 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 27."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1028",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-7",
+    "customer_segment": "mid-market",
+    "created_at": "2024-07-28T00:00:00",
+    "resolved_at": "2024-08-04T00:00:00",
+    "resolution_summary": "Resolved issue #28 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "crash",
+      "ui"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 28."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1029",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-21",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-06T00:00:00",
+    "resolved_at": "2024-03-15T00:00:00",
+    "resolution_summary": "Resolved issue #29 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "api",
+      "latency"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 29."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1030",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-17",
+    "customer_segment": "enterprise",
+    "created_at": "2024-06-14T00:00:00",
+    "resolved_at": "2024-06-16T00:00:00",
+    "resolution_summary": "Resolved issue #30 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 30."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1031",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-2",
+    "customer_segment": "small-business",
+    "created_at": "2024-10-19T00:00:00",
+    "resolved_at": "2024-10-24T00:00:00",
+    "resolution_summary": "Resolved issue #31 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 31."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1032",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-41",
+    "customer_segment": "small-business",
+    "created_at": "2024-07-29T00:00:00",
+    "resolved_at": "2024-07-30T00:00:00",
+    "resolution_summary": "Resolved issue #32 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 32."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1033",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-48",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-07T00:00:00",
+    "resolved_at": "2024-01-09T00:00:00",
+    "resolution_summary": "Resolved issue #33 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 33."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1034",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-30",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-30T00:00:00",
+    "resolved_at": "2024-04-04T00:00:00",
+    "resolution_summary": "Resolved issue #34 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 34."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1035",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-5",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-25T00:00:00",
+    "resolved_at": "2024-10-31T00:00:00",
+    "resolution_summary": "Resolved issue #35 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 35."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1036",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-16",
+    "customer_segment": "enterprise",
+    "created_at": "2024-01-21T00:00:00",
+    "resolved_at": "2024-01-31T00:00:00",
+    "resolution_summary": "Resolved issue #36 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "latency",
+      "database"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 36."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1037",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-43",
+    "customer_segment": "mid-market",
+    "created_at": "2024-04-07T00:00:00",
+    "resolved_at": "2024-04-17T00:00:00",
+    "resolution_summary": "Resolved issue #37 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 37."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1038",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-38",
+    "customer_segment": "small-business",
+    "created_at": "2024-03-22T00:00:00",
+    "resolved_at": "2024-03-29T00:00:00",
+    "resolution_summary": "Resolved issue #38 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui",
+      "latency"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 38."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1039",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-38",
+    "customer_segment": "enterprise",
+    "created_at": "2024-04-25T00:00:00",
+    "resolved_at": "2024-05-02T00:00:00",
+    "resolution_summary": "Resolved issue #39 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 39."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1040",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-20",
+    "customer_segment": "small-business",
+    "created_at": "2024-10-24T00:00:00",
+    "resolved_at": "2024-11-01T00:00:00",
+    "resolution_summary": "Resolved issue #40 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 40."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1041",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-43",
+    "customer_segment": "small-business",
+    "created_at": "2024-06-13T00:00:00",
+    "resolved_at": "2024-06-15T00:00:00",
+    "resolution_summary": "Resolved issue #41 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "latency",
+      "database"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 41."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1042",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-27",
+    "customer_segment": "small-business",
+    "created_at": "2024-09-23T00:00:00",
+    "resolved_at": "2024-09-28T00:00:00",
+    "resolution_summary": "Resolved issue #42 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "latency"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 42."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1043",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-18",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-04T00:00:00",
+    "resolved_at": "2024-01-14T00:00:00",
+    "resolution_summary": "Resolved issue #43 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 43."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1044",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-33",
+    "customer_segment": "mid-market",
+    "created_at": "2024-09-18T00:00:00",
+    "resolved_at": "2024-09-21T00:00:00",
+    "resolution_summary": "Resolved issue #44 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "crash"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 44."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1045",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-13",
+    "customer_segment": "small-business",
+    "created_at": "2024-06-22T00:00:00",
+    "resolved_at": "2024-07-01T00:00:00",
+    "resolution_summary": "Resolved issue #45 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 45."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1046",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-29",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-03T00:00:00",
+    "resolved_at": "2024-10-10T00:00:00",
+    "resolution_summary": "Resolved issue #46 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui",
+      "performance"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 46."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1047",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-38",
+    "customer_segment": "enterprise",
+    "created_at": "2024-06-11T00:00:00",
+    "resolved_at": "2024-06-12T00:00:00",
+    "resolution_summary": "Resolved issue #47 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash",
+      "ui",
+      "latency"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 47."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1048",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-46",
+    "customer_segment": "enterprise",
+    "created_at": "2024-01-23T00:00:00",
+    "resolved_at": "2024-01-31T00:00:00",
+    "resolution_summary": "Resolved issue #48 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "latency",
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 48."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1049",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-10",
+    "customer_segment": "mid-market",
+    "created_at": "2024-02-28T00:00:00",
+    "resolved_at": "2024-03-05T00:00:00",
+    "resolution_summary": "Resolved issue #49 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "api",
+      "latency"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 49."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1050",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-46",
+    "customer_segment": "mid-market",
+    "created_at": "2024-06-28T00:00:00",
+    "resolved_at": "2024-07-06T00:00:00",
+    "resolution_summary": "Resolved issue #50 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 50."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1051",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-25",
+    "customer_segment": "mid-market",
+    "created_at": "2024-08-14T00:00:00",
+    "resolved_at": "2024-08-22T00:00:00",
+    "resolution_summary": "Resolved issue #51 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "api"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 51."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1052",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-5",
+    "customer_segment": "mid-market",
+    "created_at": "2024-05-18T00:00:00",
+    "resolved_at": "2024-05-23T00:00:00",
+    "resolution_summary": "Resolved issue #52 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui",
+      "latency",
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 52."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1053",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-7",
+    "customer_segment": "small-business",
+    "created_at": "2024-09-12T00:00:00",
+    "resolved_at": "2024-09-20T00:00:00",
+    "resolution_summary": "Resolved issue #53 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash",
+      "latency"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 53."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1054",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-10",
+    "customer_segment": "enterprise",
+    "created_at": "2024-07-14T00:00:00",
+    "resolved_at": "2024-07-17T00:00:00",
+    "resolution_summary": "Resolved issue #54 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "ui"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 54."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1055",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-27",
+    "customer_segment": "mid-market",
+    "created_at": "2024-04-16T00:00:00",
+    "resolved_at": "2024-04-18T00:00:00",
+    "resolution_summary": "Resolved issue #55 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "performance"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 55."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1056",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-24",
+    "customer_segment": "mid-market",
+    "created_at": "2024-02-02T00:00:00",
+    "resolved_at": "2024-02-08T00:00:00",
+    "resolution_summary": "Resolved issue #56 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash",
+      "database",
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 56."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1057",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-4",
+    "customer_segment": "small-business",
+    "created_at": "2024-01-17T00:00:00",
+    "resolved_at": "2024-01-22T00:00:00",
+    "resolution_summary": "Resolved issue #57 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "crash",
+      "ui"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 57."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1058",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-23",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-14T00:00:00",
+    "resolved_at": "2024-01-22T00:00:00",
+    "resolution_summary": "Resolved issue #58 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash",
+      "performance"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 58."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1059",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-21",
+    "customer_segment": "small-business",
+    "created_at": "2024-05-25T00:00:00",
+    "resolved_at": "2024-05-28T00:00:00",
+    "resolution_summary": "Resolved issue #59 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 59."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1060",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-36",
+    "customer_segment": "mid-market",
+    "created_at": "2024-04-11T00:00:00",
+    "resolved_at": "2024-04-21T00:00:00",
+    "resolution_summary": "Resolved issue #60 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 60."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1061",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-38",
+    "customer_segment": "small-business",
+    "created_at": "2024-06-15T00:00:00",
+    "resolved_at": "2024-06-21T00:00:00",
+    "resolution_summary": "Resolved issue #61 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 61."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1062",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-5",
+    "customer_segment": "small-business",
+    "created_at": "2024-06-11T00:00:00",
+    "resolved_at": "2024-06-12T00:00:00",
+    "resolution_summary": "Resolved issue #62 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "api"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 62."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1063",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-22",
+    "customer_segment": "mid-market",
+    "created_at": "2024-02-05T00:00:00",
+    "resolved_at": "2024-02-14T00:00:00",
+    "resolution_summary": "Resolved issue #63 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 63."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1064",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-41",
+    "customer_segment": "enterprise",
+    "created_at": "2024-07-22T00:00:00",
+    "resolved_at": "2024-07-29T00:00:00",
+    "resolution_summary": "Resolved issue #64 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "latency",
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 64."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1065",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-6",
+    "customer_segment": "small-business",
+    "created_at": "2024-03-07T00:00:00",
+    "resolved_at": "2024-03-10T00:00:00",
+    "resolution_summary": "Resolved issue #65 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "latency"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 65."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1066",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-3",
+    "customer_segment": "small-business",
+    "created_at": "2024-04-28T00:00:00",
+    "resolved_at": "2024-05-05T00:00:00",
+    "resolution_summary": "Resolved issue #66 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "api"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 66."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1067",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-13",
+    "customer_segment": "small-business",
+    "created_at": "2024-08-23T00:00:00",
+    "resolved_at": "2024-08-30T00:00:00",
+    "resolution_summary": "Resolved issue #67 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "performance"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 67."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1068",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-41",
+    "customer_segment": "mid-market",
+    "created_at": "2024-01-03T00:00:00",
+    "resolved_at": "2024-01-10T00:00:00",
+    "resolution_summary": "Resolved issue #68 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 68."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1069",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-39",
+    "customer_segment": "enterprise",
+    "created_at": "2024-09-11T00:00:00",
+    "resolved_at": "2024-09-15T00:00:00",
+    "resolution_summary": "Resolved issue #69 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "database",
+      "ui"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 69."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1070",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-28",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-17T00:00:00",
+    "resolved_at": "2024-10-19T00:00:00",
+    "resolution_summary": "Resolved issue #70 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "crash"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 70."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1071",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-25",
+    "customer_segment": "mid-market",
+    "created_at": "2024-07-06T00:00:00",
+    "resolved_at": "2024-07-07T00:00:00",
+    "resolution_summary": "Resolved issue #71 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 71."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1072",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-35",
+    "customer_segment": "enterprise",
+    "created_at": "2024-09-26T00:00:00",
+    "resolved_at": "2024-10-01T00:00:00",
+    "resolution_summary": "Resolved issue #72 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui",
+      "latency",
+      "api"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 72."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1073",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-34",
+    "customer_segment": "mid-market",
+    "created_at": "2024-07-30T00:00:00",
+    "resolved_at": "2024-08-04T00:00:00",
+    "resolution_summary": "Resolved issue #73 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "crash",
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 73."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1074",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-29",
+    "customer_segment": "small-business",
+    "created_at": "2024-03-16T00:00:00",
+    "resolved_at": "2024-03-17T00:00:00",
+    "resolution_summary": "Resolved issue #74 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui",
+      "performance"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 74."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1075",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-43",
+    "customer_segment": "mid-market",
+    "created_at": "2024-05-27T00:00:00",
+    "resolved_at": "2024-06-01T00:00:00",
+    "resolution_summary": "Resolved issue #75 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "crash",
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 75."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1076",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-28",
+    "customer_segment": "mid-market",
+    "created_at": "2024-09-21T00:00:00",
+    "resolved_at": "2024-09-24T00:00:00",
+    "resolution_summary": "Resolved issue #76 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 76."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1077",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-38",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-25T00:00:00",
+    "resolved_at": "2024-03-28T00:00:00",
+    "resolution_summary": "Resolved issue #77 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 77."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1078",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-17",
+    "customer_segment": "small-business",
+    "created_at": "2024-06-18T00:00:00",
+    "resolved_at": "2024-06-24T00:00:00",
+    "resolution_summary": "Resolved issue #78 involving system instability and inconsistent behavior.",
+    "tags": [
+      "crash"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 78."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1079",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-12",
+    "customer_segment": "mid-market",
+    "created_at": "2024-08-03T00:00:00",
+    "resolved_at": "2024-08-10T00:00:00",
+    "resolution_summary": "Resolved issue #79 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 79."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1080",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-35",
+    "customer_segment": "mid-market",
+    "created_at": "2024-04-29T00:00:00",
+    "resolved_at": "2024-05-09T00:00:00",
+    "resolution_summary": "Resolved issue #80 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "ui"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 80."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1081",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-34",
+    "customer_segment": "enterprise",
+    "created_at": "2024-05-08T00:00:00",
+    "resolved_at": "2024-05-15T00:00:00",
+    "resolution_summary": "Resolved issue #81 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "performance"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 81."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1082",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-16",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-08T00:00:00",
+    "resolved_at": "2024-03-18T00:00:00",
+    "resolution_summary": "Resolved issue #82 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 82."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1083",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-43",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-09T00:00:00",
+    "resolved_at": "2024-10-16T00:00:00",
+    "resolution_summary": "Resolved issue #83 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "latency",
+      "performance"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 83."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1084",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-37",
+    "customer_segment": "small-business",
+    "created_at": "2024-07-01T00:00:00",
+    "resolved_at": "2024-07-07T00:00:00",
+    "resolution_summary": "Resolved issue #84 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 84."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1085",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-13",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-31T00:00:00",
+    "resolved_at": "2024-04-10T00:00:00",
+    "resolution_summary": "Resolved issue #85 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "performance"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 85."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1086",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-16",
+    "customer_segment": "small-business",
+    "created_at": "2024-05-29T00:00:00",
+    "resolved_at": "2024-06-06T00:00:00",
+    "resolution_summary": "Resolved issue #86 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 86."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1087",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-34",
+    "customer_segment": "enterprise",
+    "created_at": "2024-08-25T00:00:00",
+    "resolved_at": "2024-08-31T00:00:00",
+    "resolution_summary": "Resolved issue #87 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "crash"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 87."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1088",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-5",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-08T00:00:00",
+    "resolved_at": "2024-10-16T00:00:00",
+    "resolution_summary": "Resolved issue #88 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "latency",
+      "api"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 88."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1089",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-48",
+    "customer_segment": "enterprise",
+    "created_at": "2024-06-18T00:00:00",
+    "resolved_at": "2024-06-20T00:00:00",
+    "resolution_summary": "Resolved issue #89 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api",
+      "ui",
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 89."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1090",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-40",
+    "customer_segment": "small-business",
+    "created_at": "2024-09-01T00:00:00",
+    "resolved_at": "2024-09-07T00:00:00",
+    "resolution_summary": "Resolved issue #90 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "performance"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 90."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1091",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-12",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-03T00:00:00",
+    "resolved_at": "2024-03-11T00:00:00",
+    "resolution_summary": "Resolved issue #91 involving system instability and inconsistent behavior.",
+    "tags": [
+      "api"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 91."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1092",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-3",
+    "customer_segment": "enterprise",
+    "created_at": "2024-04-07T00:00:00",
+    "resolved_at": "2024-04-10T00:00:00",
+    "resolution_summary": "Resolved issue #92 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "ui"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 92."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1093",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-19",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-31T00:00:00",
+    "resolved_at": "2024-04-03T00:00:00",
+    "resolution_summary": "Resolved issue #93 involving system instability and inconsistent behavior.",
+    "tags": [
+      "database",
+      "api"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 93."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1094",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-37",
+    "customer_segment": "mid-market",
+    "created_at": "2024-07-23T00:00:00",
+    "resolved_at": "2024-07-26T00:00:00",
+    "resolution_summary": "Resolved issue #94 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency"
+    ],
+    "language": "fr",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 94."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1095",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-17",
+    "customer_segment": "small-business",
+    "created_at": "2024-07-25T00:00:00",
+    "resolved_at": "2024-07-29T00:00:00",
+    "resolution_summary": "Resolved issue #95 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "api"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 95."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1096",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-37",
+    "customer_segment": "mid-market",
+    "created_at": "2024-08-30T00:00:00",
+    "resolved_at": "2024-09-05T00:00:00",
+    "resolution_summary": "Resolved issue #96 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "crash",
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 96."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1097",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-28",
+    "customer_segment": "mid-market",
+    "created_at": "2024-03-16T00:00:00",
+    "resolved_at": "2024-03-26T00:00:00",
+    "resolution_summary": "Resolved issue #97 involving system instability and inconsistent behavior.",
+    "tags": [
+      "latency",
+      "performance",
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 97."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1098",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-6",
+    "customer_segment": "enterprise",
+    "created_at": "2024-06-05T00:00:00",
+    "resolved_at": "2024-06-07T00:00:00",
+    "resolution_summary": "Resolved issue #98 involving system instability and inconsistent behavior.",
+    "tags": [
+      "performance",
+      "api",
+      "database"
+    ],
+    "language": "es",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 98."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TCK-1099",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-1",
+    "customer_segment": "mid-market",
+    "created_at": "2024-05-14T00:00:00",
+    "resolved_at": "2024-05-19T00:00:00",
+    "resolution_summary": "Resolved issue #99 involving system instability and inconsistent behavior.",
+    "tags": [
+      "ui",
+      "database"
+    ],
+    "language": "en",
+    "conversation_history": [
+      {
+        "role": "user",
+        "message": "Initial problem description for ticket 99."
+      },
+      {
+        "role": "agent",
+        "message": "Acknowledged. Investigating the issue."
+      },
+      {
+        "role": "agent",
+        "message": "Problem resolved after applying patch update."
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+.env
+__pycheck__
+*.pyc
+*.pyo
+*.pyd
+__pypackages__/
+env/
+venv/
+ENV/
+env.bak/
+__pycache__

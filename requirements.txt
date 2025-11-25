@@ -1,0 +1,17 @@
+psycopg[binary]
+sqlalchemy
+pgvector
+fastapi
+uvicorn
+pydantic
+python-dotenv
+sentence-transformers
+sentence-transformers
+torch
+pydantic-settings
+prometheus-client
+opentelemetry-api
+opentelemetry-sdk
+PyJWT
+psycopg2-binary
+openai
