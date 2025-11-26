@@ -1,6 +1,7 @@
 # app/main.py
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 
 from app.config.settings import get_settings
@@ -12,14 +13,24 @@ from app.observability.tracing import init_tracing
 def create_app() -> FastAPI:
     settings = get_settings()
 
-
-
     # Optional tracing
     if settings.enable_tracing:
         init_tracing()
 
     app = FastAPI(title=settings.app_name)
 
+    # ----------------------------------------------------
+    # 🚀 CORS MIDDLEWARE (Required for React Frontend)
+    # ----------------------------------------------------
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=[
+            "*",                    # Or restrict: "http://localhost:5173"
+        ],
+        allow_credentials=True,
+        allow_methods=["*"],        
+        allow_headers=["*"],        # <-- Allows Authorization, Content-Type, etc.
+    )
 
     # ----------------------------------------------------
     # 🚀 STARTUP EVENT — TEST DB CONNECTION
@@ -36,7 +47,6 @@ def create_app() -> FastAPI:
             print(e)
             raise e
     # ----------------------------------------------------
-
 
     # Routers
     from app.api.v1.routes_query import router as query_router

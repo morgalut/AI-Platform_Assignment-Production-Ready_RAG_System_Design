@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   postgres:
-    image: pgvector/pgvector:pg15  # pg15 + pgvector pre-installed
+    image: pgvector/pgvector:pg15
     container_name: rag_postgres
     restart: always
     environment:
@@ -12,10 +12,73 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./backend/db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U raguser -d ragdb || exit 1"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
 
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: rag_backend
+    restart: always
+    env_file:
+      - backend/.env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/app
+    command: >
+      sh -c "
+        echo '⏳ Waiting for PostgreSQL...';
+        sleep 5;
+        uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
+      "
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "python -c \"import socket,sys; s=socket.socket(); s.settimeout(2); s.connect(('localhost',8080)); s.close()\" || exit 1"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
 
+  ingester:
+    image: curlimages/curl:latest
+    container_name: rag_ingester
+    depends_on:
+      backend:
+        condition: service_healthy
+    entrypoint: >
+      sh -c "
+        echo '🚀 Running ingest...';
+        curl -X POST http://backend:8080/v1/ingest \
+          -H 'Authorization: Bearer mock-token';
+        echo '✔ Ingest finished, exiting.';
+      "
+    restart: "no"
+
+  ui:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: rag_ui
+    ports:
+      - "5173:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    environment:
+      VITE_API_URL: http://backend:8080
 
 volumes:
   pgdata:

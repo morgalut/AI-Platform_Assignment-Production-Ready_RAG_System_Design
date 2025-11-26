@@ -2792,5 +2792,171 @@
         "message": "Problem resolved after applying patch update."
       }
     ]
+  },
+
+ 
+  {
+    "ticket_id": "AUTH-2000",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-50",
+    "customer_segment": "enterprise",
+    "created_at": "2024-10-01T10:14:00Z",
+    "resolved_at": "2024-10-01T11:22:00Z",
+    "resolution_summary": "Password reset instructions sent successfully after verifying user identity.",
+    "tags": ["password", "authentication"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "I forgot my password and cannot log in." },
+      { "role": "agent", "message": "I can help. Have you tried using the 'Forgot Password' link?" },
+      { "role": "agent", "message": "Reset email was delivered and user confirmed access." }
+    ]
+  },
+  {
+    "ticket_id": "AUTH-2001",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-11",
+    "customer_segment": "mid-market",
+    "created_at": "2024-09-14T09:05:00Z",
+    "resolved_at": "2024-09-14T10:45:00Z",
+    "resolution_summary": "Login locked due to too many failed attempts. User unlocked and authenticated.",
+    "tags": ["login", "lockout"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "My account is locked. It says too many attempts." },
+      { "role": "agent", "message": "I see multiple failed logins. I unlocked the account." },
+      { "role": "agent", "message": "User successfully logged in afterwards." }
+    ]
+  },
+  {
+    "ticket_id": "AUTH-2002",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-18",
+    "customer_segment": "small-business",
+    "created_at": "2024-09-03T15:02:00Z",
+    "resolved_at": "2024-09-03T15:33:00Z",
+    "resolution_summary": "2FA code delivery issue resolved by switching user to TOTP.",
+    "tags": ["2fa", "authentication", "security"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "I’m not receiving my 2FA SMS codes." },
+      { "role": "agent", "message": "Your carrier is blocking short codes. Recommend using an authenticator app." },
+      { "role": "agent", "message": "User switched to TOTP and logged in successfully." }
+    ]
+  },
+  {
+    "ticket_id": "AUTH-2003",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-19",
+    "customer_segment": "enterprise",
+    "created_at": "2024-06-21T12:12:00Z",
+    "resolved_at": "2024-06-21T16:40:00Z",
+    "resolution_summary": "Password reset link failing due to expired token. User given new secure link.",
+    "tags": ["password", "reset", "token-expired"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "The reset link says it's expired. I can't change my password." },
+      { "role": "agent", "message": "The token expires after 30 minutes. I generated a new link." },
+      { "role": "agent", "message": "Password updated successfully." }
+    ]
+  },
+  {
+    "ticket_id": "AUTH-2004",
+    "product_tag": "Product_A",
+    "customer_id": "CUST-12",
+    "customer_segment": "enterprise",
+    "created_at": "2024-08-11T08:11:00Z",
+    "resolved_at": "2024-08-11T09:01:00Z",
+    "resolution_summary": "SAML SSO login failing due to incorrect Assertion Consumer Service (ACS) URL.",
+    "tags": ["sso", "saml", "authentication"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "Our SSO login fails with an invalid ACS URL error." },
+      { "role": "agent", "message": "The ACS URL in your IdP config was incorrect." },
+      { "role": "agent", "message": "After correction, SSO login succeeded." }
+    ]
+  },
+
+  {
+    "ticket_id": "AUTH-2005",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-99",
+    "customer_segment": "enterprise",
+    "created_at": "2024-11-06T12:02:00Z",
+    "resolved_at": "2024-11-06T14:12:00Z",
+    "resolution_summary": "OAuth integration resolved by refreshing expired client secret.",
+    "tags": ["oauth", "api", "authentication"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "We're getting invalid client secret errors." },
+      { "role": "agent", "message": "The API secret expired last week. Generated a new one." },
+      { "role": "agent", "message": "Integration working again." }
+    ]
+  },
+  {
+    "ticket_id": "AUTH-2006",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-72",
+    "customer_segment": "mid-market",
+    "created_at": "2024-07-19T18:22:00Z",
+    "resolved_at": "2024-07-19T19:10:00Z",
+    "resolution_summary": "User could not reset password due to unverified email address. After verification, reset succeeded.",
+    "tags": ["password", "email", "verification"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "I didn't get the password reset email." },
+      { "role": "agent", "message": "Your email was not verified. I re-sent the verification email." },
+      { "role": "agent", "message": "Password reset succeeded afterwards." }
+    ]
+  },
+  {
+    "ticket_id": "AUTH-2007",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-81",
+    "customer_segment": "enterprise",
+    "created_at": "2024-09-22T09:50:00Z",
+    "resolved_at": "2024-09-22T12:06:00Z",
+    "resolution_summary": "Login error caused by corrupted cached session tokens.",
+    "tags": ["login", "session", "token"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "I keep getting 'session invalid' even after logging out." },
+      { "role": "agent", "message": "Local token storage was corrupted. Clearing cache fixed it." },
+      { "role": "agent", "message": "User logged in without issue." }
+    ]
+  },
+
+  {
+    "ticket_id": "AUTH-2008",
+    "product_tag": "Product_B",
+    "customer_id": "CUST-44",
+    "customer_segment": "small-business",
+    "created_at": "2024-10-08T14:11:00Z",
+    "resolved_at": "2024-10-08T14:40:00Z",
+    "resolution_summary": "Incorrect username was being used. User successfully authenticated after correction.",
+    "tags": ["login", "username"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "Password reset still doesn't work; it says my email doesn't exist." },
+      { "role": "agent", "message": "Your login is actually your username, not your email." },
+      { "role": "agent", "message": "User logged in successfully." }
+    ]
+  },
+
+  {
+    "ticket_id": "AUTH-2009",
+    "product_tag": "Product_C",
+    "customer_id": "CUST-62",
+    "customer_segment": "enterprise",
+    "created_at": "2024-09-06T13:22:00Z",
+    "resolved_at": "2024-09-06T15:55:00Z",
+    "resolution_summary": "Email deliverability issue traced to customer SMTP misconfiguration.",
+    "tags": ["email", "smtp", "password-reset"],
+    "language": "en",
+    "conversation_history": [
+      { "role": "user", "message": "None of our reset emails reach our users." },
+      { "role": "agent", "message": "Your SMTP connector was failing SPF validation." },
+      { "role": "agent", "message": "After fixing DNS, emails were delivered." }
+    ]
   }
 ]
+  
